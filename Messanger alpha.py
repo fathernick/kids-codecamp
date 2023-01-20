@@ -66,7 +66,7 @@ def login():
             case _:
                 fehlerfrage = input('Dieser Benutzer existiert nicht \n War es ein Tippfehler? \n [ja/nein]: ')
                 if fehlerfrage != 'nein' and fehlerfrage != 'Nein':
-                    acces = False
+                    access = False
                 else:    
                     user_current = new_guest_user(name)
                     print('Du bist als Gast eingeloggt')

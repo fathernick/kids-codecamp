@@ -115,7 +115,7 @@ def start_mess():
                 
 
 def new_guest_user(name):
-    name = input('Gib deinen deinen Gastnamen ein: ')
+    name = input('Gib deinen Gastnamen ein: ')
     guest_user.add(name)
     return name
 
